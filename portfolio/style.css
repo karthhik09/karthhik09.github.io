@@ -1,0 +1,114 @@
+:root {
+    --bg-color: #0d1117;
+    --text-main: #e6edf3;
+    --prompt-user: #79c0ff;
+    --prompt-cmd: #ffffff;
+    --accent-purple: #d2a8ff;
+    --accent-green: #7ee787;
+    --accent-red: #ff7b72;
+    --accent-blue: #58a6ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.menu {
+    color: #8b949e;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #30363d;
+    margin: 20px 0;
+}
+
+.line {
+    margin-bottom: 2px;
+}
+
+.default {
+    color: var(--prompt-user);
+    margin-right: 10px;
+}
+
+.command {
+    color: var(--prompt-cmd);
+    font-weight: bold;
+}
+
+.output {
+    margin-left: 0;
+    color: var(--text-main);
+}
+
+.highlight {
+    color: var(--accent-purple);
+    font-weight: bold;
+}
+
+.tech {
+    color: var(--accent-red);
+    font-weight: bold;
+}
+
+b {
+    color: #fff;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.date {
+    color: var(--accent-blue);
+    font-weight: bold;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.tech-stack {
+    color: var(--accent-green);
+    font-size: 0.95em;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.links a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    margin-right: 15px;
+    border-bottom: 1px dotted var(--accent-blue);
+}
+
+.links a:hover {
+    background-color: var(--accent-blue);
+    color: var(--bg-color);
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #8b949e;
+}
